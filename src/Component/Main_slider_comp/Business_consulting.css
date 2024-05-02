@@ -1,0 +1,243 @@
+.slider-container {
+margin: 0px;
+padding: 0px    ;
+}
+.slick-prev {
+    display: absolute;
+    left: 3%;
+    top: 50%;
+  width:20px; 
+  height: 20px;
+  background-color: rgb(0, 0, 0);  
+  z-index: 1;
+  
+}
+.slick-next {
+  display: absolute;
+left: 97%;
+top: 50%;
+  width:20px; 
+  height: 20px;
+  background-color: rgb(0, 0, 0);
+}
+/* ------------slider first css start------------------------ */
+
+.page-name {
+    color: red !important;
+    font-size: 12px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+}
+
+.heading{
+    font-size: 56px !important;
+    font-Weight: 700 !important;
+    font-Family: 'poppins' !important;
+    color: white;
+    width: 33rem;
+    margin-top: 10px !important;
+    animation-name: fade_up;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    -o-animation-direction: normal;
+    
+}
+@keyframes fade_up {
+    0%{
+        opacity: 0%;
+        margin-top: 17rem;
+        transform: translateY(30%);
+       
+    }
+    100%{
+        opacity:100%;
+        margin-top: 15rem;
+        transform: translateY(-40%);
+        
+    }
+}
+.heading-part{
+    
+    font-Weight: 700!important;
+    font-Family: 'poppins'!important;
+    color: red; 
+}
+.content{
+    
+    color: white;
+    font-size: 14px !important;
+    font-family: 'poppins' !important;
+    width: 29rem;
+    margin-top: 35px!important;
+margin-bottom: 15px!important;
+}
+.btn-box{
+    width: 20rem !important;
+     display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.btn-one{
+height: 40px;
+width: 150px;
+padding-top: 3px;
+padding-left: 5px;
+background-color: red;
+color: white;
+font-size: 14px !important;
+font-family: 'poppins' !important;
+font-weight: 600 !important;
+border: none;
+}
+.btn-one:hover{
+    background-color: #0b0c26;
+    transition-duration: 0.5s;
+}
+.btn-two{
+    height: 40px;
+    width: 200px;
+    padding-top: 3px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 14px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    border: none;
+    margin-left: 15px;
+}
+.btn-two:hover{
+    background-color: white;
+    color:#0b0c26 ;
+    transition-duration: 0.5s;
+}
+/* ------------slider first css end------------------------ */
+/* ------------slider second css start------------------------ */
+.slider-item-second{
+    height: 100vh;  
+    background-image: url("public/Images/main slider component/slider-mainbg-002.jpg")!important;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.innerbox-second{
+    height: 100vh;
+    width: 100vw;
+   
+     display: flex;
+     flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+}
+.page-name-two {
+    color: red !important;
+    font-size: 12px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+}
+
+.heading-two{
+    
+    font-Weight: 700 !important;
+    font-Family: 'poppins' !important;
+    color: white;
+    line-height: 68px !important;
+   
+    margin-top: 10px !important;
+}
+
+.btn{
+    height: 40px;
+    width: 150px;
+    margin-top: 40px;
+    padding-top: 3px;
+    padding-left: 5px;
+    background-color: red;
+    color: white;
+    font-size: 14px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    border: none;
+}
+.btn:hover{
+    background-color: #0b0c26;
+    transition-duration: 0.5s;
+}
+
+/* ------------slider second css end------------------------ */
+/* ------------slider third css start------------------------ */
+
+
+.page-name-third {
+    color: red !important;
+    font-size: 16px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    
+}
+
+.heading-third{
+    font-size: 56px !important;
+    font-Weight: 700 !important;
+    font-Family: 'poppins' !important;
+    color: rgb(0, 0, 0);
+    width: 33rem;
+    margin-top: 10px !important;
+}
+
+.content-third{
+    
+    color: rgb(0, 0, 0);
+    font-size: 18px !important;
+    font-family: 'poppins' !important;
+    width: 29rem;
+    margin-top: 35px!important;
+margin-bottom: 15px!important;
+}
+.btn-box-third{
+    width: 20rem !important;
+     display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.btn-one-third{
+height: 45px;
+width: 150px;
+padding-top: 3px;
+padding-left: 5px;
+background-color:transparent;
+color: #0b0c26;
+font-size: 14px !important;
+font-family: 'poppins' !important;
+font-weight: 600 !important;
+
+}
+.btn-one-third:hover{
+    background-color: #0b0c26;
+    color: white;
+    transition-duration: 0.5s;
+}
+.btn-two-third{
+    height: 45px;
+    width: 150px;
+    padding-top: 3px;
+    padding-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 14px !important;
+    font-family: 'poppins' !important;
+    font-weight: 600 !important;
+    border: none;
+    margin-left: 15px;
+}
+.btn-two-third:hover{
+    background-color: rgb(0, 0, 0);
+    color:#ffffff ;
+    transition-duration: 0.5s;
+}
+/* ------------slider third css end------------------------ */

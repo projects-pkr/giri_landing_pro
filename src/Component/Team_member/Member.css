@@ -1,0 +1,28 @@
+.container-dots {
+    /* display: flex; */
+    text-align: right;
+    /* justify-content: center; */
+    position: absolute;
+    right: "10px";
+    top: 40%;
+    /* transform: translateY(-50%); */
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 10px 10px;
+    display: block;
+  }
+
+  .active {
+    background-color: white; /* Change to your desired active color */
+  }
+
+  .slick-prev,
+.slick-next {
+  display: none !important;
+}

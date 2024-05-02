@@ -1,0 +1,67 @@
+.main-btn-facebook-box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 150px;
+    left: 125px;
+}
+
+.inner-btn-facebook-box {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inner-btn-facebook-box:hover {
+    color: red;
+    background-color: white;
+}
+
+.inner-btn-twitter-box {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    text-align: center;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inner-btn-twitter-box:hover {
+    color: red;
+    background-color: white;
+}
+
+.card-main-box:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out
+}
+
+.card-name {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'poppins';
+}
+
+.card-name:hover {
+    color: red;
+}
+
+.card-desig {
+    color: #687076;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'poppins';
+}
+
